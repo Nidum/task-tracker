@@ -1,6 +1,6 @@
 package ag.pinguin.exception;
 
-import ag.pinguin.dto.ErrorResponse;
+import ag.pinguin.dto.response.ErrorResponse;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

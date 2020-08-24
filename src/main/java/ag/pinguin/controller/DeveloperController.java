@@ -1,7 +1,7 @@
 package ag.pinguin.controller;
 
-import ag.pinguin.dto.DeveloperRequest;
-import ag.pinguin.dto.DeveloperResponse;
+import ag.pinguin.dto.request.DeveloperRequest;
+import ag.pinguin.dto.response.DeveloperResponse;
 import ag.pinguin.entity.Developer;
 import ag.pinguin.repository.DeveloperRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import javax.validation.constraints.NotNull;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import static ag.pinguin.exception.Messages.ENTITY_NOT_FOUND;

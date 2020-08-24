@@ -1,4 +1,4 @@
-package ag.pinguin.dto;
+package ag.pinguin.dto.response;
 
 import org.springframework.web.bind.annotation.ResponseBody;
 

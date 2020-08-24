@@ -1,4 +1,4 @@
-package ag.pinguin.dto;
+package ag.pinguin.dto.response;
 
 import java.io.Serializable;
 import java.util.ArrayList;

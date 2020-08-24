@@ -1,7 +1,7 @@
 package ag.pinguin.integration;
 
-import ag.pinguin.dto.DeveloperResponse;
-import ag.pinguin.dto.ErrorResponse;
+import ag.pinguin.dto.response.DeveloperResponse;
+import ag.pinguin.dto.response.ErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import java.util.List;
 import java.util.UUID;
 
 import static ag.pinguin.exception.Messages.ENTITY_NOT_FOUND;
-import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;

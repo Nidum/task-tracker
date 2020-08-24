@@ -1,4 +1,4 @@
-package ag.pinguin.dto;
+package ag.pinguin.dto.request;
 
 import javax.validation.constraints.NotBlank;
 import java.util.Objects;

@@ -1,6 +1,6 @@
 package ag.pinguin.controller;
 
-import ag.pinguin.dto.ErrorResponse;
+import ag.pinguin.dto.response.ErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
