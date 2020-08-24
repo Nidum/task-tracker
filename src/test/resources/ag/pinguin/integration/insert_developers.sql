@@ -1,5 +1,5 @@
 INSERT INTO DEVELOPER
-(id, first_Name)
+(developer_id, first_Name)
 VALUES
 ('3b43c8c6e5f711eaadc10242ac120001', 'Mary'),
 ('3b43c8c6e5f711eaadc10242ac120002', 'Ann'),

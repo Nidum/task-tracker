@@ -1,19 +1,21 @@
 package ag.pinguin.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Objects;
+import java.util.Set;
 import java.util.UUID;
 
 @Entity(name = "DEVELOPER")
 public class Developer {
     @Id
     @GeneratedValue
+    @Column(name = "developer_id")
     private UUID id;
     @Size(min = 1, max = 50)
     private String firstName;
+    @OneToMany(fetch = FetchType.LAZY)
+    private Set<Issue> assignedIssues;
 
     public Developer() {
     }
